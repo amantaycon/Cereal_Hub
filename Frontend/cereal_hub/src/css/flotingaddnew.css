@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a8e063, #f7ff00);
+    min-height: 100vh;
+}
+
+.open-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #a8e063, #f7ff00);
+    color: #333;
+    font-weight: bold;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.open-btn:hover {
+    transform: scale(1.05);
+}
+
+.form-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 320px;
+    background: #ffffff;
+    border: 2px solid #c6efaa;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    z-index: 1000;
+}
+
+.form-popup h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #4b830d;
+    text-align: center;
+}
+
+.form-popup input,
+.form-popup textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-popup input:focus,
+.form-popup textarea:focus {
+    border-color: #a8e063;
+    box-shadow: 0 0 5px rgba(168, 224, 99, 0.7);
+}
+
+.form-popup input[type="file"] {
+    padding: 3px;
+}
+
+.form-popup button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #a8e063, #f7ff00);
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.form-popup .close-btn {
+    background: #ff4d4d;
+    color: white;
+}

@@ -1,0 +1,162 @@
+.cart-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f92e, #43e97b);
+  min-height: 100vh;
+}
+
+.cart-container h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.cart-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.cart-products {
+  flex: 2;
+}
+
+.cart-item {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h4 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.quantity-controls button {
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #43e97b;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.item-total {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2e7d32;
+}
+
+.total {
+  margin-top: 20px;
+  color: #1a1a1a;
+}
+
+.cart-form {
+  flex: 1;
+  background: #ffffffd9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.cart-form h4 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+.cart-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.pay-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #246b29;
+}
+.remove-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: #d32f2f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.remove-button:hover {
+  color: #b71c1c;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.site-name {
+  font-size: 24px;
+  color: #2e7d32;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.site-name:hover {
+  color: #1b5e20;
+}
+
+.back-button {
+  background-color: #ffd600;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #ffea00;
+}
